@@ -1,0 +1,616 @@
+* { 
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body { 
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.header { 
+    width: 100%;
+    box-shadow: 0 12px 16px #00000099;
+    background: #d35187;
+    color: #fff;
+    padding: 1rem 0;
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 3;
+}
+
+/* -- CABECERA -- */
+.content {
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+/* -- BANNER INICIO -- */
+.banner {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    color: black;
+    margin-bottom: 40px;
+    background-image: url(../images/banner_01.jpg);
+    background-attachment: fixed;
+    background-position: 0px 0px;
+    background-size: cover;
+}
+
+.content-wrapper {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.banner .content-wrapper {
+    width: 100%;
+}
+
+.banner .info {
+    background-color: #33333399;
+    width: 100%;
+    margin-top: 0px;
+    color: #fff;
+    text-align: center;
+}
+
+.banner .info h1 {
+    font-size: 60px;
+    margin-top: 400px;
+    margin-bottom: 10px;
+    padding: 10px;
+
+    text-shadow: 3px 3px 3px #000;
+}
+
+.banner .info p {
+    font-size: 25px;
+    padding: 10px;
+    margin-bottom: 20px;
+
+    font-weight: 300;
+    font-style: oblique;
+
+    text-shadow: 3px 3px 3px #000;
+}
+
+
+/* -- NUESTRA HISTORIA -- */
+.container {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    min-height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 80px;
+    justify-items: center;
+    align-items: center;
+    padding: 0px 90px;
+}
+
+.titulo {
+    font-size: 35px;
+    color: #d35187;
+    text-shadow: 3px 3px 3px #00000066;
+    margin-bottom: 50px;
+}
+
+.historia-img {
+    text-align: center;
+}
+
+.historia-picture {
+    max-width: 80%;
+}
+
+
+.parrafo {
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+
+/* -- DIAS ABIERTO -- */
+.content-video {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+video {
+    width: 100%;
+}
+
+.content-dias {
+    height: 99%;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    margin: auto;
+    padding: 45px 0px;
+
+    background-color: #00000099;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-dias h1 {
+    color: #fff;
+    margin-right: 10px; 
+    font-size: 50px;
+    text-shadow: 3px 3px 3px #00000066;
+}
+
+.dias h2{
+    color: #d35187;
+    margin-bottom: 25px;
+    margin-right: 20px;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 3px 3px 3px #00000066;
+}
+
+.dias p {
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+/* -- LOS FAVORITOS DE NICECREAM -- */
+.carta {
+    width: 100%;
+    height: 100%;
+    min-height: 50px;
+
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.carta h1 {
+    color: #d35187;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin: 15px 0 40px;
+    text-shadow: 3px 3px 3px #00000066;
+}
+
+.container-carta {
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.container-carta .container-item {
+    width: 250px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 0px 20px #00000066;
+    overflow: hidden;
+    margin: 40px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.container-carta .container-item:hover {
+    transform: translate(-15px);
+    box-shadow: 0 12px 16px #00000033;
+}
+
+.container-carta .container-item img {
+    width: 250px;
+    height: 220px;
+}
+
+.container-carta .container-item h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #422a16;
+}
+
+.container-carta .container-item p {
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* -- JUMBOTRON -- */
+.bg-custom {
+    background-color: #d35187;
+}
+
+.caja {
+    height: 300px;
+    background-color: #d35187;
+}
+
+.bg-blue {
+    background-color: #030313;
+}
+
+
+/*/* ---------------- CARTA DE NICECREAM ---------------- */
+
+/* -- BANNER CARTA -- */
+.banner2 {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    color: #000000;
+    margin-bottom: 40px;
+
+    background-image: url(../images/banner_carta_01.jpg);
+    background-attachment: fixed;
+    background-position: 0px 0px;
+    background-size: cover;
+}
+
+.content-wrapper2 {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.banner2 .content-wrapper2 {
+    width: 100%;
+}
+
+.banner2 .info2 {
+    background-color: #33333399;
+    width: 100%;
+    margin-top: 0px;
+    color: #fff;
+    text-align: center;
+}
+
+.banner2 .info2 h1 {
+    font-size: 60px;
+    margin-top: 400px;
+    margin-bottom: 10px;
+    padding: 10px;
+
+    text-shadow: 3px 3px 3px #000;
+}
+
+.banner2 .info2 p {
+    font-size: 25px;
+    padding: 10px;
+    margin-bottom: 20px;
+
+    font-weight: 300;
+    font-style: oblique;
+
+    text-shadow: 3px 3px 3px #000;
+}
+
+
+/* -- CARTA DE NICECREAM -- */
+.carta-page {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    min-height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 80px;
+    justify-items: center;
+    align-items: center;
+}
+
+.carta-title {
+    color: #d35187;
+    margin-bottom: 50px;
+}
+
+.carta-image {
+    text-align: center;
+}
+
+.carta-image--left {
+    text-align: left;
+}
+
+.carta-img {
+    max-width: 80%;
+}
+
+.carta-subtitulo {
+    color: #422a16;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.carta-text {
+    font-size: 17px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+.precio {
+    color: #422a16;
+    font-weight: 900;
+    font-style: oblique;
+}
+
+
+/* ---------------- PÁGINA CONTACTO ---------------- */
+
+/* -- BANNER CONTACTO -- */
+.banner3 {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    color: black;
+    margin-bottom: 40px;
+
+    background-image: url(../images/banner_contacto_01.jpg);
+    background-attachment: fixed;
+    background-position: 0px 0px;
+    background-size: cover;
+}
+
+.content-wrapper3 {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.banner3 .content-wrapper3 {
+    width: 100%;
+}
+
+.banner3 .info3 {
+    background-color: #33333399;
+    width: 100%;
+    margin-top: 0px;
+    color: #fff;
+    text-align: center;
+}
+
+.banner3 .info3 h1 {
+    font-size: 60px;
+    margin-top: 400px;
+    margin-bottom: 10px;
+    padding: 10px;
+
+    text-shadow: 3px 3px 3px #000;
+}
+
+.banner3 .info3 p {
+    font-size: 25px;
+    padding: 10px;
+    margin-bottom: 20px;
+
+    font-weight: 300;
+    font-style: oblique;
+
+    text-shadow: 3px 3px 3px #000;
+}
+
+/* -- CONTACTO -- */
+section.contenedor-contacto {
+    background-image: url(../images/banner_03.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container-contacto {
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-contacto h1{
+    color: #d35187;
+    text-shadow: 3px 3px 3px #00000033;
+}
+
+form { 
+    display: flex;
+    flex-flow: column;
+    background-color: #fff;
+    width: 45%;
+    height: 80%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: #000000cc 0px 0px 50px;
+    border-radius: 10px;
+}
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+input, textarea {
+    width: 80%;
+    border: none;
+    resize: none;
+    outline: none;
+    padding: 15px 0px;
+    margin: 20px;
+    transition: all 300ms;
+
+    border-bottom: 1px solid #00000033;
+}
+
+input:hover, textarea:hover {
+    border-bottom-color: #d13475;
+}
+
+/* -- FORMULARIO CONTACTO -- */
+
+
+.btn {
+    width: 200px;
+    border: none;
+    outline: none;
+    background: #d13475;
+    padding: 15px;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: #0dcaf0 0px 0px 10px;
+    margin: 20px 0px;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: #0dcaf0 0px 0px 10px;
+}
+
+.contacto-label{
+    justify-content: left;
+    color: #bb2121;
+}
+
+
+/* -- FOOTER -- */
+.pie-pagina {
+    width: 100%;
+    background-color: #d35187;
+}
+
+.pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .caja figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .caja figure img {
+    width: 250px;
+}
+
+.pie-pagina .grupo-1 .caja h2 {
+    color: #422a16;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .caja p {
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.pie-pagina .grupo-1 .red-social a {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin-right: 10px;
+
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 50px;
+    color: #fff;
+
+    transition: all 300ms ease;
+    background-color: #d13475;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover {
+    color: #422a16;
+}
+
+.pie-pagina .grupo-2 {
+    background-color: #d13475;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.pie-pagina .grupo-2 small {
+    font-size: 15px;
+}
+
+/* -- REDES SOCIALES -- */
+.content-social {
+    display: flex;
+    height: 30vh;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-social ul li {
+    display: inline-block;
+    margin: 0 15px;
+    width: 90px;
+    height: 150px;
+    text-align: center;
+}
+
+.content-social ul li a {
+    display: block;
+    padding: 0 10px;
+    background: #d35187;
+    color: #fff;
+    border-radius: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    box-shadow: #3f2c2c33 0 3px 5px 0;
+    transition: .2s;
+}
+
+.content-social ul li a:hover {
+    transform: translate(-3px) scale(1.05);
+    box-shadow: #3f2c2c66 0 5px 5px 0;
+    filter: none;
+}
+
+.content-social ul li .facebook:hover {
+    background: #3b5999;
+}
+
+.content-social ul li .instagram:hover {
+    background: #e4405f;
+}
+
+.content-social ul li .youtube:hover {
+    background: #bd081c;
+}
